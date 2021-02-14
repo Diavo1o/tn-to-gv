@@ -1,4 +1,4 @@
- #-*-coding:utf-8-*-
+#-*-coding:utf-8-*-
 
 from selenium import webdriver  
 from selenium.webdriver.common.by import By
@@ -214,5 +214,5 @@ class Textnow:
       
     print (u'处理完毕---end')
     
-    driver.close()
+    driver.quit()
     
